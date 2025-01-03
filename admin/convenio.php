@@ -60,6 +60,7 @@ $convenios = listarConvenios($pdo);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motivare - Gerenciamento de Convênios</title>
     <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" type="image/png" href="../img/Principal/Ícone-Navegador/motivare.png">
 </head>
 <body>
     <section>
@@ -68,6 +69,9 @@ $convenios = listarConvenios($pdo);
                 <header class="header">
                     <h2 class=editcl> GERENCIAR CONVÊNIOS</h2>
                 </header>
+            </div>
+            <div class="voltarPagina">
+                <a href="../admin/admin.php" class="voltarPagina">Voltar para página administrativa</a>
             </div>
 
             <main>

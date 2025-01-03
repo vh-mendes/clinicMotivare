@@ -18,7 +18,7 @@ function listarUsuarios($pdo)
 if (isset($_GET['delete'])) {
     $id = intval($_GET['delete']);
     try {
-        $stmt = $pdo->prepare("DELETE FROM usuario WHERE id = :id");
+        $stmt = $pdo->prepare("DELETE FROM usuario WHERE id_usuario = :id");
         $stmt->execute([':id' => $id]);
         $mensagem = "Usuário excluído com sucesso!";
     } catch (PDOException $e) {

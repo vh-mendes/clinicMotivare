@@ -65,6 +65,7 @@ $colaboradores = listarColaboradores($pdo);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motivare - Gerenciamento de Colaboradores</title>
     <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" type="image/png" href="../img/Principal/Ícone-Navegador/motivare.png">
 </head>
 <body>
     <section>
@@ -77,6 +78,10 @@ $colaboradores = listarColaboradores($pdo);
 
             <main>
                 <!-- Formulário de Cadastro -->
+                <div class="voltarPagina">
+                <a href="../admin/admin.php" class="voltarPagina">Voltar para página administrativa</a>
+            </div>
+
                 <div class="form-container">
                     <h3 CLASS="cadastc">CADASTRAR COLABORADOR</h3>
                     <form action="" method="POST">

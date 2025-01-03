@@ -67,7 +67,7 @@ if (isset($_POST['logout'])) {
                 <li>
                 <form action="" method="POST">
                 <button style= "background-color:#13547a; color: #ffffff; border: none; padding: 10px 20px;
-                  font-size: 16px; cursor: pointer; border-radius: 5px; transition: background-color 0.3s ease;" id="logout-button" type="submit" name="logout">Sair</button>
+                  font-size: 16px; cursor: pointer; border-radius: 5px; transition: background-color 0.3s ease;" id="logout-button" type="submit" name="logout">Logout</button>
                 </form>
 
   

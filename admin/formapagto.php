@@ -60,6 +60,7 @@ $formasDePagamento = listarFormasDePagamento($pdo);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motivare - Gerenciamento de Formas de Pagamento</title>
     <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" type="image/png" href="../img/Principal/Ícone-Navegador/motivare.png">
 </head>
 <body>
     <section>
@@ -69,6 +70,9 @@ $formasDePagamento = listarFormasDePagamento($pdo);
                     <h2 class="editcl">GERENCIAR FORMAS DE PAGAMENTO</h2>
                 </header>
             </div>
+            <div class="voltarPagina">
+                <a href="../admin/admin.php" class="voltarPagina">Voltar para página administrativa</a>
+            </div>   
 
             <main>
                 <!-- Formulário de Cadastro -->
