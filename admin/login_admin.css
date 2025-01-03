@@ -1,0 +1,207 @@
+:root {
+  --azul: #13547a;
+  --verde: #4c9755;
+  --agua: #73a5b0;
+  --fonte-principal: "Montserrat";
+  --branco: #ffffff;
+  --hover: #00796b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background: linear-gradient(15deg, #13547a 100%, #80d0c7 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.logo {
+  width: 350px;
+  margin-bottom: 0px;
+}
+
+main h2 {
+  font-size: 20px;
+  color: var(--agua);
+  margin-bottom: 10px;
+}
+
+main p {
+  color: var(--agua);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 15px;
+  color: var(--agua);
+}
+
+form .btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 15px;
+  color: var(--branco);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--verde);
+  color: var(--branco);
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  outline: none; /* Remove o destaque ao focar no botão */
+}
+
+form .btn-primary:hover {
+  background-color: var(--hover);
+  transition-duration: 0.4s;
+}
+
+.btn-secondary {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 100px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: var(--verde);
+  color: var(--branco);
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: var(--hover);
+  padding: 4%;
+  transition-duration: 0.4s;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.links__navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  background-color: var(--agua);
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 0;
+  color: var(--branco);
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: justify;
+  align-items: center;
+}
+
+.links__navegacao:hover {
+  background-color: var(--hover);
+  padding: 3%;
+  transition-duration: 0.4s;
+}
+
+footer p {
+  font-size: 12px;
+  color: var(--branco);
+  margin-top: 20px;
+}
+
+footer a {
+  color: var(--verde);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.voltar {
+  display: flex; /* Flexbox para alinhar o conteúdo */
+  align-items: center; /* Alinhamento vertical */
+  justify-content: center; /* Alinhamento horizontal */
+  padding: 0; /* Remove espaçamento interno desnecessário */
+  height: 100px;
+  width: 100px;
+  background-color: transparent; /* Ou qualquer cor de fundo */
+  border: none; /* Remove borda padrão do botão */
+  cursor: pointer; /* Mostra que é clicável */
+  margin-left: 0;
+}
+
+.voltar:hover {
+  transform: scale(1.05); /* Efeito de "crescer" */
+}
+
+.botão {
+  width: 40px; /* Ajuste para centralizar melhor dentro do botão */
+  height: 40px;
+}
+
+.login-admin {
+  font-weight: size;
+  color: var(--agua);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.entrar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 350px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.mensagem {
+  color: var(--agua);
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}

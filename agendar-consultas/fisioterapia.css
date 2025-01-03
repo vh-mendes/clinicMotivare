@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c0e8e8, #f1e8e8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 400px;
+    margin-bottom: 0px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #00264d;
+    margin: 0;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #004080;
+}
+
+.title-banner {
+    background-color: #77b4b8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.title-banner h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* Estilos gerais do formulário */
+.appointment-form {
+    max-width: 800px; /* Largura máxima do formulário */
+    margin: 0 auto;   /* Centraliza o formulário */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Organiza os campos em uma coluna (por padrão) */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para cada linha de campos */
+  .form-row {
+    display: flex;
+    justify-content: space-between; /* Distribui os campos ao longo da linha */
+    margin-bottom: 15px;
+  }
+  
+  /* Para os campos dentro das linhas (data, horario, etc.) */
+  .form-group {
+    width: 48%;  /* Cada campo ocupa 48% da largura */
+  }
+  
+  /* O último grupo de campos na linha, que ocupa toda a largura disponível */
+  .form-group.last {
+    width: 100%; /* Este campo ocupa a linha inteira */
+  }
+  
+  /* Ajusta os campos para dispositivos menores */
+  @media (max-width: 768px) {
+    .form-group {
+      width: 100%;  /* Em telas menores, cada campo ocupa 100% da largura */
+    }
+  
+    .form-row {
+      flex-direction: column; /* Em telas pequenas, os campos ficam empilhados */
+    }
+  }
+  
+  /* Estilo para os labels e campos */
+  label {
+    font-size: 1.1em;
+    color: #13547a;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box; /* Garante que o padding não quebre o layout */
+    transition: border-color 0.3s;
+  }
+  
+  input[type="date"]:focus,
+  input[type="time"]:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  option {
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+.botãoz {
+    background-color: #4c9755;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Mostra que é clicável */
+    border: none;
+}
+.botãoz:hover {
+    transform: scale(1.05); /* Efeito de "crescer" */
+    background-color: #2b8137;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.avançar {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%; /* Garante largura completa */
+    margin-top: 20px; /* Espaçamento superior opcional */
+}
+
+.voltar {
+    align-items: left; /* Alinhamento vertical */
+    padding: 0; /* Remove espaçamento interno desnecessário */
+    height: 100px;
+    width: 100px;
+    background-color: transparent; /* Ou qualquer cor de fundo */
+    border: none; /* Remove borda padrão do botão */
+    cursor: pointer; /* Mostra que é clicável */
+    margin-left: 0;
+  }
+  
+  .voltar:hover {
+    transform: scale(1.05); /* Efeito de "crescer" */
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .botão {
+    width: 40px; /* Ajuste para centralizar melhor dentro do botão */
+    height: 40px;
+  }
+
+  .mensagem-feedback {
+    font-weight: bold;
+  }

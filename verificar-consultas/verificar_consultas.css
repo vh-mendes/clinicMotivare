@@ -1,0 +1,180 @@
+:root {
+  --azul: #13547a;
+  --verde: #4c9755;
+  --agua: #73a5b0;
+  --branco: #ffffff;
+  --hover: #00796b;
+  --fonte-principal: 'Montserrat';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background: linear-gradient(to bottom, #b5f5e7, #c8e7f2);
+    height: 100vh;
+  }
+
+.container_principal {
+  text-align: center;
+}
+  
+.header {
+  text-align: center;
+}
+  
+.logo {
+  padding: 10px;
+  width: 400px;
+}
+  
+h1 {
+  font-size: 30px;
+  color: var(--branco);
+  background-color: var(--azul);
+}
+
+h2 {
+  padding: 20px;
+  font-size: 20px;
+  color: var(--azul);
+}
+  
+.table {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10%;
+}
+
+.table_new {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10%;
+}
+
+
+#data{
+margin-left: 115px;
+}
+
+#hora{
+  margin-left: 107px;
+}
+
+#colab {
+  margin-left: 150px;
+}
+
+#conv {
+  margin-left: 163px;
+}
+
+#pg {
+  margin-left: 180px;
+}
+
+.cell_new {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--agua);
+  color: var(--azul);
+  gap: 10%;
+}
+
+.cell_new:hover {
+  background-color: var(--branco);
+}
+
+.cell {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: var(--verde);
+  color: var(--branco);
+}
+
+.cell:hover {
+  background-color: var(--hover);
+}
+
+
+.voltar {
+  display: flex; /* Flexbox para alinhar o conteúdo */
+  align-items: center; /* Alinhamento vertical */
+  justify-content: center; /* Alinhamento horizontal */
+  padding: 0; /* Remove espaçamento interno desnecessário */
+  height: 100px;
+  width: 100px;
+  background-color: transparent; /* Ou qualquer cor de fundo */
+  border: none; /* Remove borda padrão do botão */
+  cursor: pointer; /* Mostra que é clicável */
+  margin-left: 0;
+}
+
+.voltar:hover {
+  transform: scale(1.05); /* Efeito de "crescer" */
+}
+
+.botão {
+  width: 40px; /* Ajuste para centralizar melhor dentro do botão */
+  height: 40px;
+}
+
+li {
+  padding-bottom: 100px; /* Adiciona 10px de espaço abaixo de cada item */
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 1px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+.styled-table thead tr {
+  background-color: var(--verde);
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid green;
+  background-color: white;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--verde);
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: gray;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: center;      /* Centraliza verticalmente */
+
+}

@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c0e8e8, #f1e8e8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 400px;
+    max-height: 50%;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 14px;
+    color: #00264d;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #004080;
+}
+
+main h2 {
+    font-size: 22px;
+    color: #003366;
+    margin-bottom: 50px;
+}
+
+.services {
+    display: center;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #77b4b8;
+}
+
+.services button {
+  margin: 10px;
+  padding: 12.5px 20px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #77b4b8;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  cursor: pointer; /* Mostra que é clicável */
+}
+
+button:hover {
+  background-color: #4c9755;
+  box-shadow: 0 0 20px #77b4b8;
+  transform: scale(1.1);
+  cursor: pointer; /* Mostra que é clicável */
+}
+
+button:active {
+  background-color: #13547a;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+  cursor: pointer; /* Mostra que é clicável */
+}
+
+.voltar {
+    align-items: left; /* Alinhamento vertical */
+    padding: 0; /* Remove espaçamento interno desnecessário */
+    height: 100px;
+    width: 100px;
+    background-color: transparent; /* Ou qualquer cor de fundo */
+    border: none; /* Remove borda padrão do botão */
+    cursor: pointer; /* Mostra que é clicável */
+    margin-left: 0;
+  }
+  
+  .voltar:hover {
+    transform: scale(1.05); /* Efeito de "crescer" */
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .botão {
+    width: 40px; /* Ajuste para centralizar melhor dentro do botão */
+    height: 40px;
+  }
+
+

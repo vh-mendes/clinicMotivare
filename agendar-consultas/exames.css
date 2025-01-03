@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c0e8e8, #f1e8e8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #00264d;
+    margin: 0;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #004080;
+}
+
+.title-banner {
+    background-color: #77b4b8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.title-banner h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.appointment-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #004080;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 
+
+.voltar {
+    align-items: left; /* Alinhamento vertical */
+    padding: 0; /* Remove espaçamento interno desnecessário */
+    height: 100px;
+    width: 100px;
+    background-color: transparent; /* Ou qualquer cor de fundo */
+    border: none; /* Remove borda padrão do botão */
+    cursor: pointer; /* Mostra que é clicável */
+    margin-left: 0;
+  }
+  
+  .voltar:hover {
+    transform: scale(1.05); /* Efeito de "crescer" */
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .botão {
+    width: 40px; /* Ajuste para centralizar melhor dentro do botão */
+    height: 40px;
+  }
+
+  .botãoz {
+    background-color: #4c9755;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Mostra que é clicável */
+    border: none;
+}
+.botãoz:hover {
+    transform: scale(1.05); /* Efeito de "crescer" */
+    background-color: #2b8137;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s;
+}
