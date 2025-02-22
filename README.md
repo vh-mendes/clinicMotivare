@@ -1,8 +1,8 @@
-Motivare - Sistema de Agendamento de Consultas
+## Motivare - Sistema de Agendamento de Consultas
 
 Bem-vindo ao Motivare, um sistema de agendamento de consultas para clínicas, desenvolvido para otimizar o gerenciamento de pacientes e profissionais de saúde.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 Cadastro de pacientes e profissionais
 
@@ -12,7 +12,7 @@ Painel administrativo para gestão das consultas
 
 Sistema seguro com autenticação de usuários
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 Frontend: HTML, CSS
 
@@ -20,7 +20,7 @@ Backend: PHP
 
 Banco de Dados: MySQL
 
-📦 Instalação
+## 📦 Instalação
 
 Clone este repositório:
 
